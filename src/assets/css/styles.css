@@ -33,3 +33,7 @@ body {
 .bg-light-cyan {
   background-color: hsl(193, 38%, 86%);
 }
+
+.advice-quote {
+  font-size: 28px;
+}
