@@ -1,0 +1,11 @@
+body {
+  background-color: hsl(218, 23%, 16%);
+}
+
+.color-neon-green {
+  color: hsl(150, 100%, 66%);
+}
+
+.bg-neon-green {
+    background-color: hsl(150, 100%, 66%);
+}
