@@ -2,10 +2,34 @@ body {
   background-color: hsl(218, 23%, 16%);
 }
 
-.color-neon-green {
+.text-neon-green {
   color: hsl(150, 100%, 66%);
 }
 
 .bg-neon-green {
-    background-color: hsl(150, 100%, 66%);
+  background-color: hsl(150, 100%, 66%);
+}
+
+.text-dark-grayish-blue {
+  color: hsl(217, 19%, 24%);
+}
+
+.bg-dark-grayish-blue {
+  background-color: hsl(217, 19%, 24%);
+}
+
+.text-grayish-blue {
+  color: hsl(217, 19%, 38%);
+}
+
+.bg-grayish-blue {
+  background-color: hsl(217, 19%, 38%);
+}
+
+.text-light-cyan {
+  color: hsl(193, 38%, 86%);
+}
+
+.bg-light-cyan {
+  background-color: hsl(193, 38%, 86%);
 }
