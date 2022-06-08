@@ -26,6 +26,10 @@ body {
   background-color: hsl(217, 19%, 38%);
 }
 
+.bg-dark-blue {
+  background-color: hsl(218, 23%, 16%);
+}
+
 .text-light-cyan {
   color: hsl(193, 38%, 86%);
 }
@@ -36,4 +40,20 @@ body {
 
 .advice-quote {
   font-size: 28px;
+}
+
+.pattern-divider {
+  object-fit: cover;
+  width: 444px;
+  height: 16px;
+}
+
+.random-btn {
+  box-shadow: 0 0 4px #52ffa8;
+  bottom: -23px;
+}
+
+.random-btn:hover {
+  box-shadow: 0 0 20px #52ffa8;
+  cursor: pointer;
 }
