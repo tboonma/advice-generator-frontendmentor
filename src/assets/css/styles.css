@@ -50,10 +50,27 @@ body {
 
 .random-btn {
   box-shadow: 0 0 4px #52ffa8;
-  bottom: -23px;
+  margin-bottom: -30px;
 }
 
 .random-btn:hover {
   box-shadow: 0 0 20px #52ffa8;
   cursor: pointer;
+}
+
+.advice-section {
+  display: grid;
+
+  /* Set horizontal alignment of items in, case they have a diffrent width. */
+  /* justify-items: start | end | center | stretch (default);*/
+  justify-items: center;
+
+  /* Set vertical alignment of items, in case they have a diffrent height. */
+  /* align-items: start | end | center | stretch (default); */
+  align-items: end;
+}
+
+.advice-section > * {
+  grid-column-start: 1;
+  grid-row-start: 1;
 }
